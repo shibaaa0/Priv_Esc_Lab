@@ -5,9 +5,7 @@
 ---
 
 ## 🎯 Mục tiêu
-Mục tiêu của các bài lab này là **thực hành leo thang đặc quyền** nhằm đọc được một trong hai tệp sau:
-- `/flag.txt`
-- `/etc/shadow`
+Mục tiêu của các bài lab này là **thực hành leo thang đặc quyền** nhằm đọc được tệp `/flag.txt` hoặc mở được <span style="color:red">root shell</span>
 
 ---
 
