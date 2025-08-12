@@ -1,4 +1,4 @@
-# 🛡️ Bộ Lab Leo Thang Đặc Quyền (Privilege Escalation Labs)
+# 🛡️ Privilege Escalation Labs
 
 **Author:** shibaaa  
 
@@ -8,8 +8,6 @@
 Mục tiêu của các bài lab này là **thực hành leo thang đặc quyền** nhằm đọc được một trong hai tệp sau:
 - `/flag.txt`
 - `/etc/shadow`
-
-Các lab được thiết kế để mô phỏng những tình huống thường gặp trong môi trường thực tế, giúp bạn rèn luyện kỹ năng khai thác.
 
 ---
 
