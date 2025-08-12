@@ -1,16 +1,33 @@
-Để khởi tạo server dùng lệnh: sudo python3 server.py
+# 🛡️ Bộ Lab Leo Thang Đặc Quyền (Privilege Escalation Labs)
 
-![alt text](image/image1.png)
+**Author:** shibaaa  
 
-Mở 1 terminal khác (hoặc thiết bị khác) dùng netcat để lấy reverse shell
-Nếu là terminal khác thay IP bằng 127.0.0.1 
+---
 
-![alt text](image/image2.png)
+## 🎯 Mục tiêu
+Mục tiêu của các bài lab này là **thực hành leo thang đặc quyền** nhằm đọc được một trong hai tệp sau:
+- `/flag.txt`
+- `/etc/shadow`
 
-LƯU Ý: Mỗi khi gõ 1 lệnh gì, cần enter 2 lần để lấy kết quả
+Các lab được thiết kế để mô phỏng những tình huống thường gặp trong môi trường thực tế, giúp bạn rèn luyện kỹ năng khai thác.
 
-![alt text](image/image3.png)
+---
 
-Để hack thành công, lệnh whoami phải trả về root
+## 🛠️ Yêu cầu hệ thống
+- **Docker**: Phiên bản mới nhất (có thể kiểm tra bằng `docker --version`)
+- **Bash Shell** (Linux/MacOS) hoặc Git Bash/WSL (Windows)
 
-![alt text](image/image4.png)
+---
+
+## 🚀 Cách sử dụng
+1. **Cài đặt Docker**  
+   - Linux (Debian/Ubuntu):
+     ```sh
+     sudo apt update && sudo apt install docker.io -y
+     ```
+   - MacOS / Windows: [Tải Docker Desktop](https://www.docker.com/products/docker-desktop)
+
+2. **Build và run lab**
+    ```sh
+    ./run.sh
+    ```
