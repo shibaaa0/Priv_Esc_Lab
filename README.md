@@ -4,26 +4,26 @@
 
 ---
 
-## 🎯 Mục tiêu
-Mục tiêu của các bài lab này là **thực hành leo thang đặc quyền** nhằm đọc được tệp `/flag.txt` hoặc mở được <span style="color:red">root shell</span>
+## 🎯 Goal
+The goal of these labs is **to practice privilege escalation** in order to **read the `/flag.txt` file** or obtain a <span style="color:red">root shell</span>.
 
 ---
 
-## 🛠️ Yêu cầu hệ thống
-- **Docker**: Phiên bản mới nhất (có thể kiểm tra bằng `docker --version`)
-- **Bash Shell** (Linux/MacOS) hoặc Git Bash/WSL (Windows)
+## 🛠️ System requirements
+- **Docker**: Latest version (you can check with `docker --version`)
+- **Bash Shell** (Linux/macOS) or Git Bash / WSL (Windows)
 
 ---
 
-## 🚀 Cách sử dụng
-1. **Cài đặt Docker**  
+## 🚀 How to use
+1. **Install Docker**  
    - Linux (Debian/Ubuntu):
      ```sh
      sudo apt update && sudo apt install docker.io -y
      ```
-   - MacOS / Windows: [Tải Docker Desktop](https://www.docker.com/products/docker-desktop)
+   - macOS / Windows: [Download Docker Desktop](https://www.docker.com/products/docker-desktop)
 
-2. **Build và run lab**
+2. **Build and run the lab**
     ```sh
     ./run.sh
     ```
